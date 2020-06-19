@@ -32,7 +32,7 @@ survival = passengers['Survived']
 
 # Perform train, test, split
 train_features, test_features, train_labels, test_labels = train_test_split(features, survival,  test_size=0.2)
-'''print(x_test)'''
+'''print(train_features)'''
 
 # Scale the feature data so it has mean = 0 and standard deviation = 1
 scaler = StandardScaler()
